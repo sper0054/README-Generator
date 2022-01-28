@@ -8,7 +8,7 @@
   Using command line prompts to answer questions, a readme file is generated
   
   ## How it looks & works
-![README-ScreenShot](https://github.com/sper0054/JavaScript-Quiz/blob/main/JavaScript%20Quiz.gif)
+![README-ScreenShot](https://github.com/sper0054/README-Generator/blob/main/Screen%20Shot%202022-01-28%20at%205.18.32%20PM.png)
 
   ## Table of Contents
 
