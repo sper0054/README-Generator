@@ -28,8 +28,8 @@ return inquirer.prompt ([
     },
     {
         type: 'input',
-        name: 'contribution guidelines',
-        message: 'Please provide contribution guideslines'
+        name: 'contribution',
+        message: 'Please provide contribution guidelines'
     },
     {
         type: 'input',
@@ -52,7 +52,8 @@ return inquirer.prompt ([
         name: 'email',
         message: 'What is your email address?'
     },
-])
+]);
+}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
