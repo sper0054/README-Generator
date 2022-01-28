@@ -54,7 +54,7 @@ return inquirer.prompt ([
 ]);
 }
 
-function WriteToFile(fileName, data) {
+function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err =>
         err ? console.error(err) : console.log('README Created!')
     )
