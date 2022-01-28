@@ -6,6 +6,9 @@
 
   ## Description
   Using command line prompts to answer questions, a readme file is generated
+  
+  ## How it looks & works
+![README-ScreenShot](https://github.com/sper0054/JavaScript-Quiz/blob/main/JavaScript%20Quiz.gif)
 
   ## Table of Contents
 
