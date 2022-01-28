@@ -1,10 +1,9 @@
-// TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-const questions = () => {
+
+function Questions() {
 return inquirer.prompt ([
     {
         type: 'input',
@@ -50,13 +49,12 @@ return inquirer.prompt ([
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?'
-    },
+        message: 'What is your email address?',
+    }
 ]);
 }
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function WriteToFile(fileName, data) {
     fs.writeFile(fileName, data, err =>
         err ? console.error(err) : console.log('README Created!')
     )
@@ -65,7 +63,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 async function init() {
     try {
-        const answers = await askQuestions();
+        const answers = await Questions();
         generateMarkdown(answers);
         writeToFile("README.md", generateMarkdown(answers));
     } catch (err) {
